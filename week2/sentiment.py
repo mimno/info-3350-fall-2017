@@ -5,6 +5,8 @@
 ### vocabulary. I've included two sample sentiment lexicons, one by 
 ### Bing Liu and one from Matt Jockers' "syuzhet" package.
 
+### ( For an interactive look, see this page: https://mimno.infosci.cornell.edu/sentiment/ )
+
 ## Example usage: python sentiment.py syuzhet.csv txt/oliver.txt
 
 # 1. There's a bug in the code. All the paragraphs are being scored as 0.
@@ -12,21 +14,50 @@
 
 ## [Description here]
 
-# . The directory `txt` contains works by Charles Dickens in the correct format:
+# 2. I'm using the Counter class from the `collections` package instead of a 
+#  python `dict`. Consult the documentation https://docs.python.org/3/library/collections.html
+#  and describe four features that Counter provides that dict does not.
+
+## a.
+## b.
+## c.
+## d.
+
+# 3. The directory `txt` contains works by Charles Dickens in the correct format:
 #  one paragraph per line. Apply the two lexicons to `tale.txt`. Do they work?
 #  Do they agree? Provide specific examples.
 
 ## [Description here]
 
-# . The code is currently just adding up all the scores for each word token.
+# 4. The code is currently just adding up all the scores for each word token.
 #  This favors longer documents: if we just repeat the contents twice, the score doubles.
 #  What happens if we normalize by document length? In the `score_counts` function,
 #  divide the score by the total number of tokens.
 
 ## [Describe how the output changes here. Is this normalization a good idea? Why or why not?]
 
-# . Working with your table, create a lexicon for one of the emotions listed on
-#  on the board, or choose your own.
+# 5. Working with your table, create a lexicon for one of the emotions listed on
+#  on the board, or choose your own. You may collect additional documents to test
+#  your lexicon, please include these if so.
+
+## [Include your team's final lexicon in your zip file. Discuss here your personal experience. What was hard about this process?]
+
+# 6. I've set this up so that we are looking at the most extreme passages in 
+#  the sources. What does this approach show, and what does it hide? How does it
+#  affect how we evaluate the tool?
+
+## [Discuss here]
+
+#### IDEAS FOR YOUR WRITING RESPONSE FOR FRIDAY:
+
+## Both groups are working from Vonnegut's description of plot. Does this
+##  view really reflect plot? If not, what is missing, and how important is it
+##  to you?
+##
+## Given your experience with lexicon-based sentiment analysis, how well does
+##  it approximate a quantity that's relevant for plot analysis?
+##
+## Would a more nuanced view of emotion lead to a better representation of plot?
 
 
 import re, sys
