@@ -1,0 +1,25 @@
+Today we will work together to build a collection of texts from Project Gutenberg (PG): http://www.gutenberg.org/
+
+1. What formats are available? What should we choose? What encodings are documents in?
+
+2. What should we collect? What should we avoid? Why?
+
+3. What are the limits of the collection that is available to us in PG?
+
+We'll start by filling out a metadata spreadsheet here:
+
+  https://docs.google.com/spreadsheets/d/1XgFnLrpawyh2o_8FE_hngTCuUyEK5W9jwAeda9CWq28/edit?usp=sharing
+
+4. What additional information should we collect about each text? Explain why it is interesting. Are any of these variables problematic? Why or why not?
+
+Each student should be responsible for at least one text. Select texts in English, but do not limit to texts originally written in English.
+
+5. List the titles / PG IDs of your texts.
+
+6. Look at the text of your document. What changes to the text do you want to make? Are there parts of the text that you are not certain whether you should keep? Explain both sides, and why you made a particular decision.
+
+Add your files through this web interface to the *Cornell* local github site. (Use your netid/password, not your regular GitHub id)
+
+  https://github.coecis.cornell.edu/dm655/novels-gutenberg
+
+7. So far we've looked at several tools for measuring aspects of text, like sentiment lexicons, word-use ratios for classification, and distance metrics like Jaccard, cosine, and Burrows. What do you expect will happen when we apply these to this new collection? What distinctions, based on book attributes, will be easy or hard to measure through words?
