@@ -19,43 +19,43 @@ inlude it when you turn in your work.
 
 QUESTIONS
 
-. Run the clustering algorithm. How do your results compare to other people at
+1. Run the clustering algorithm. How do your results compare to other people at
 your table? Give some examples of similarities and differences. Does the level
 of variability concern you?
 
 [Response here]
 
-. By default we're using cosine similarity. Change the `score` function to 
+2. By default we're using cosine similarity. Change the `score` function to 
 point to absolute similarity. Does this change anything? Compare your clusters
 to others at your table. Could you tell the difference between cosine-based
 clusters and absolute-based clusters?
 
 [Response here]
 
-. We're starting with 10 clusters. Experiment with different numbers of clusters. 
+3. We're starting with 10 clusters. Experiment with different numbers of clusters. 
 Describe how the results change or do not change.
 
 [Response here]
 
-. By default we're using a vocabulary of the 10000 most common words. Try different
+4. By default we're using a vocabulary of the 10000 most common words. Try different
 settings, such as the 44 most common, or middle-frequency words. How do results 
 differ? 
 
 [Response here]
 
-. In the agglomerative clustering algorithm we had to compare every document to
+5. In the agglomerative clustering algorithm we had to compare every document to
 every other document. Count the number of comparisons we're making in the k-means
 algorithm. How is it different, and why would that matter?
 
 [Response here]
 
-. We're printing the title and author of each work, but we have other information
+6. We're printing the title and author of each work, but we have other information
 as well. Modify the printing code at the end to add one of our other metadata
 fields. Do you notice -- or not notice -- any patterns?
 
 [Response here]
 
-. Describe, in your own words, how the k-means algorithm works. Imagine you are 
+7. Describe, in your own words, how the k-means algorithm works. Imagine you are 
 speaking to a clever but non-technical person, like a supreme court justice.
 
 [Response here]
