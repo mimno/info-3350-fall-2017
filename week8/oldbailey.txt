@@ -1,0 +1,36 @@
+We're going to be using a topic model to explore transcripts from court cases in London from 1820-1830. A topic model is similar to a document clustering algorithm, but instead of grouping together documents we're going to group together word tokens.
+
+1. *Before* looking at documents, take a moment to think about your expectations. What crimes will people be charged with? What sort of evidence will be presented? What will punishments be?
+
+[Response here]
+
+Go to https://mimno.infosci.cornell.edu/bailey/. This is a small portion of the Old Bailey corpus, originally from https://www.oldbaileyonline.org/, formatted and annotated by http://fedora.clarin-d.uni-saarland.de/oldbailey/.
+
+2. Stoplist curation. Sometimes we are interested in small words like "the" or "and". Here we're looking for more meaning-bearing words, so we're going to selectively remove small or overly frequent words from the collection. Go to the "Vocabulary" button and add words to the stoplist. Describe several cases of words where you were not sure whether to keep them or not. Why were you uncertain? How might your analysis change depending on whether you removed those words or not?
+
+[Response here]
+
+3. Train a topic model. Hit the "Run" button at the top left. Each time you hit the button the algorithm will sweep through all the tokens 50 times. Go up to about 300. The left column will show the top 10 most frequent words in each "topic" cluster. Copy the output here. Then run 50 more iterations, and copy the topics again. How do they compare?
+
+[Response here]
+
+. Compare your topics to others at your table. Find a topic that is similar across all models. Record at least three variants. (If working alone, run the page in multiple tabs.) Click this topic and select the "Topic Documents" button. Describe the documents that have the largest proportion of this topic, and compare those documents to your table-mates. Are they similar or different?
+
+[Response here]
+
+. Open the Javascript console (ask for help if you haven't done this before). Read about Mr. Trust's mugging in `documents[780].originalText`. Look at the following array:
+
+  documents[780].topicCounts
+
+. Which topics are most represented in this transcript? Copy the array here, and also copy the top 10 words (from the left column of the page) for the top 5 most well-represented topics. How does these topics compare to your table-mates?
+
+[Response here]
+
+. Now that you have explored the documents through the topic model, what do you think of the original questions? What crimes were people  charged with? What sort of evidence was presented? What punishments were applied?
+
+[Response here]
+
+. Is this a useful way to look at a collection? What type of analysis does it support, and what would be difficult? What do you want to know about the Old Bailey corpus now, and what methods or tools would you use to find out more?
+
+[Response here]
+
