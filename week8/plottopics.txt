@@ -1,0 +1,32 @@
+1. Before looking at data, state your expectations. What are the main themes of novels? What happens at the beginning of novels? The middle? The end?
+
+[Response here]
+
+Today we'll be looking at a 500-topic model trained by Matt Jockers on 3600 novels:
+
+  https://mimno.infosci.cornell.edu/novels/plot.html
+
+I've divided each novel into 20 segments, and plotted the frequency of each topic in each segment. The dark line shows a mean, the gray region shows an approximation of uncertainty. The words on the right are the most probable words for the topic.
+
+Topics are sorted by their average position within novels: topics that appear mostly at the beginnings of novels are at the top of the page, topics that appear mostly at the end of novels appear at the bottom.
+
+2. How is the vocabulary being curated? Which words have been removed, and which have been kept? How would this choice affect the results?
+
+[Response here]
+
+3. Are these topics good? Find examples that you like, and examples that you don't.
+
+[Response here]
+
+4. Words can have multiple meanings. One of the goals of this word-level clustering is to separate meaning based on context. Find five examples of words that appear in multiple topics (find in page will be useful). Describe the context of the words in each topic. Are they different?
+
+[Response here]
+
+5. From each region of the page (beginning, middle, end) choose three example topics. Why do you think these themes have the "novel time" distribution that you see?
+
+[Response here]
+
+6. What, if anything, do these results tell you about the "average" plot of a novel?
+
+[Response here]
+
