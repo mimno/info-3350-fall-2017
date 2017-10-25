@@ -1,0 +1,45 @@
+Previously we've looked at scholarly uses of topic models, and talked a bit about topic model algorithms. Today we're going to be looking at ways to evaluate topics. Start with this web page:
+
+https://mimno.infosci.cornell.edu/pliny
+
+The page links to five topic models trained on Pliny the Elder's "Natural History", a compendium of scientific knowledge as of the early Roman empire.
+
+BEFORE LOOKING AT MODELS:
+
+1. What do you expect will be the categories of Roman science?
+
+[Response here]
+
+The rest of the page describes various diagnostics. Each of the model pages displays topics organized by these diagnostic metrics.
+
+With your table, pick one of the metrics. Read the description, and discuss your chosen metric to identify and (ideally) clear up any confusion.
+
+2. List your selected metric, and describe, in your own words, what it measures.
+
+[Response here]
+
+Now look at the individual models. On the left you can see a scatter plot of topics. On the right you can see the most frequent words in each topic. Click either to highlight a topic in both views. Set one of the X or Y axes to your selected metric.
+
+3. Give examples that score either high or low on your chosen metric. What characteristics of these topics result in these values?
+
+[Response here]
+
+4. How do the values of your metric and the distribution of values change across the different models? Why do you think this might be?
+
+[Response here]
+
+5. Compare your metric with other metrics. Which other metrics correlate with yours, and which do not?
+
+[Response here]
+
+6. Does your selected metric do a good job of identifying problematic topics?
+
+[Response here]
+
+7. Imagine you are doing a study like the Martha Ballard diary or the Richmond Dispatch. How concerned should you be about the quality of individual topics? Would these diagnostic metrics help you build an argument? Or would they damage the credibility of the method?
+
+[Response here]
+
+8. Based on your reading of these models, what are the categories of Roman science?
+
+[Response here]
