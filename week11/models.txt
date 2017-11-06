@@ -1,0 +1,34 @@
+So far we have studied statistical models that operate on text data, and that produce some kind of output. For the rest of the semester we will be thinking about how to use those models to construct arguments that use text as evidence.
+
+How can we connect the things we want to say with the tools and datasets that we have available? What are threats to the validity of our arguments? In other words, how can we tell if we're just making stuff up?
+
+Before going into specific methods for checking arguments, let's review what we have discussed so far.
+
+For each method, answer the following questions:
+
+* What format of text data does this method require?
+* Besides text, what do we need to specify for this method to work? Consider any non-text data, user-specified parameters, etc.
+* What variables, if any, can be automatically inferred by an algorithm?
+* Many of these methods work by assigning numbers to the word types in a vocabulary, or to the documents. What are the dimensions of these outputs, and what are the constraints on the numbers in the outputs?
+* What are three examples of questions that can be answered by this method? Be as specific as possible. You may assume the existence of any dataset that is appropriate.
+* How can this method fail? What would we notice if this were to happen?
+
+1. Sentiment lexicons
+
+
+2. Classifiers, such as Naïve Bayes
+
+
+3. Clustering (agglomerative or k-means)
+
+
+4. Latent Semantic Analysis (LSA)
+
+
+5. Topic models
+
+
+6. Word embeddings
+
+
+
