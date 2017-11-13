@@ -18,10 +18,10 @@ For this script we'll be comparing works by Jane Austen and Charles Dickens.
 We'll read the novels from each author's directory and then perform Dunning's 
 g-test for each term in the overall vocabulary.
 
-1. Describe the meaning of each cell in the confusion matrix for these values:
+1. Describe the meaning of each cell in the cotingency table for these values:
     Group 1: 10 out of 50, Group 2: 5 out of 50.
 
-2. Using the confusion_matrix and dunning_g methods, calculate Dunning
+2. Using the contingency_table and dunning_g methods, calculate Dunning
    g-scores for the following proportions:
    (a) 100/120, 30/55
    (b) 100/120, 10/12
@@ -64,18 +64,18 @@ dickens_counts = get_counts("Dickens")
 total_counts = austen_counts + dickens_counts
 vocabulary = sorted(list(total_counts.keys()))
 
-def confusion_matrix(count1, total1, count2, total2):
-    matrix = np.zeros((2,2))
-    matrix[0] = count1, count2
-    matrix[1] = total1-count1, total2-count2
-    return matrix
+def contingency_table(count1, total1, count2, total2):
+    table = np.zeros((2,2))
+    table[0] = count1, count2
+    table[1] = total1-count1, total2-count2
+    return table
 
-def dunning_g(matrix):
-#  import pdb; pdb.set_trace()
-  rows = matrix.sum(axis=1)
-  cols = matrix.sum(axis=0)
-  score = 2 * matrix.sum() * (entropy(matrix.ravel()) - entropy(rows) - entropy(cols))
+def dunning_g(table):
+  rows = table.sum(axis=1)
+  cols = table.sum(axis=0)
+  score = 2 * table.sum() * (entropy(rows) + entropy(cols) - entropy(table.ravel()))
   return score
+
 # [2: Add code here.]
 
 gscores = []
