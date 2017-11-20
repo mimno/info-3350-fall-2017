@@ -1,5 +1,5 @@
 """
-Ex 15: More Dunning's log-likelihood test, Multiple hypotheses.
+More Dunning's log-likelihood test, Multiple hypotheses.
 
 Can an observation be significant but not convincing?
 
