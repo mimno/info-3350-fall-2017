@@ -37,7 +37,7 @@ g-test for each term in the overall vocabulary.
    print_extreme method. What do you think of these terms?
 
 5. Add code to determine the least distinctive term usage by Austen and 
-   Dickens. Print the ten least distincitve terms. Are these terms surprising?
+   Dickens. Print the ten least distinctive terms. Are these terms surprising?
 
 6. How would the existing Dunning g-scores change if we removed words from
    our vocabulary? What if instead we added another novel?
@@ -90,7 +90,7 @@ def print_extreme(words, scores, k, is_top):
   if is_top:
     k_pos = np.argsort(scores)[::-1][:k]
   else:
-    k_pos = np.argsort(scores)[:k][::-1]
+    k_pos = np.argsort(scores)[:k]
   print(k_pos)
   for i, pos in enumerate(k_pos):
     print("{}. {}: {}".format(i+1, words[pos], scores[pos]))
